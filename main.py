@@ -36,7 +36,7 @@ plt.title("Projectile Motion Simulation")
 ax_angle = plt.axes([0.25, 0.1, 0.65, 0.03], facecolor="lightgoldenrodyellow")
 ax_velocity = plt.axes([0.25, 0.05, 0.65, 0.03], facecolor="lightgoldenrodyellow")
 
-s_angle = Slider(ax_angle, "Launch Angle (degrees)", 0, 90, valinit=initial_angle)
+s_angle = Slider(ax_angle, "Launch Angle (deg)", 0, 90, valinit=initial_angle)
 s_velocity = Slider(ax_velocity, "Initial Velocity (m/s)", 0, 100, valinit=initial_velocity)
 
 # This Function is to update the plot when sliders change
